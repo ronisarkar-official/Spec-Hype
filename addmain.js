@@ -71,16 +71,20 @@ popularPosts.forEach((item) => {
 
 					<!-- Featured Post -->
 					<div class="mb-4">
-						<div class="relative overflow-hidden rounded-lg">
-							<img
-								src="${item.image1}"
-								alt="Mecha Break"
-								class="w-full h-40 object-cover rounded-md hover:scale-110 transition-transform duration-300" />
-							<span
-								class="absolute bottom-6 left-2 bg-[#339af0] text-white text-xs font-bold px-2 py-1 rounded"
-								>Games</span
-							>
-						</div>
+  <div class="relative overflow-hidden rounded-lg">
+    <a href="${item.link1}">
+      <img
+        src="${item.image1}"
+        alt="Mecha Break"
+        class="w-full h-40 object-cover rounded-md hover:scale-110 transition-transform duration-300" />
+      <span
+        class="absolute bottom-6 left-2 bg-[#339af0] text-white text-xs font-bold px-2 py-1 rounded">
+        Games
+      </span>
+    </a>
+  </div>
+</div>
+
 						<div class="mt-2">
 							<a
 								class="text-base font-semibold leading-tight text-gray-800 hover:underline"
@@ -94,47 +98,54 @@ popularPosts.forEach((item) => {
 					<!-- List of Other Posts -->
 					<ul class="space-y-3">
 						<li class="flex items-start gap-3">
-							<img
-								src="${item.image2}"
-								alt="Monster Hunter"
-								class="w-[88px] h-[57px] object-cover rounded-md" />
-							<div>
-								<a
-									class="text-sm font-semibold text-gray-800 hover:underline"
-									href="${item.link2}"
-									>${item.title2}</a
-								>
-							</div>
-						</li>
-						<li class="flex items-start gap-3">
-							<img
-								src="${item.image3}"
-								alt="Monster Hunter"
-								class="w-[88px] h-[57px] object-cover rounded-md" />
-							<div>
-								<a
-									class="text-sm font-semibold text-gray-800 hover:underline"
-									href="${item.link3}"
-									>${item.title3}</a
-								>
-								
-							</div>
-						</li>
+  <a href="${item.link2}">
+    <img
+      src="${item.image2}"
+      alt="Monster Hunter"
+      class="w-[88px] h-[57px] object-cover rounded-md" />
+  </a>
+  <div>
+    <a
+      class="text-sm font-semibold text-gray-800 hover:underline"
+      href="${item.link2}">
+      ${item.title2}
+    </a>
+  </div>
+</li>
 
 						<li class="flex items-start gap-3">
-							<img
-								src="${item.image4}"
-								alt="Monster Hunter"
-								class="w-[88px] h-[57px] object-cover rounded-md" />
-							<div>
-								<a
-									class="text-sm font-semibold text-gray-800 hover:underline"
-									href="${item.link4}"
-									>${item.title4}</a
-								>
-								
-							</div>
-						</li>
+  <a href="${item.link3}">
+    <img
+      src="${item.image3}"
+      alt="Monster Hunter"
+      class="w-[88px] h-[57px] object-cover rounded-md" />
+  </a>
+  <div>
+    <a
+      class="text-sm font-semibold text-gray-800 hover:underline"
+      href="${item.link3}">
+      ${item.title3}
+    </a>
+  </div>
+</li>
+
+
+						<li class="flex items-start gap-3">
+  <a href="${item.link4}">
+    <img
+      src="${item.image4}"
+      alt="Monster Hunter"
+      class="w-[88px] h-[57px] object-cover rounded-md" />
+  </a>
+  <div>
+    <a
+      class="text-sm font-semibold text-gray-800 hover:underline"
+      href="${item.link4}">
+      ${item.title4}
+    </a>
+  </div>
+</li>
+
 					</ul>
   `;
 });
