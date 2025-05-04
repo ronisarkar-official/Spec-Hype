@@ -48,9 +48,9 @@ const headerHTML = `
   <div id="mobile-menu" class="md:hidden overflow-hidden max-h-0 transition-all duration-500 ease-in-out flex flex-col mt-3 space-y-3 px-4">
   <a href="https://www.explorerstalks.com" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Home</a>
   <a href="#" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Guide</a>
-  <a href="privacy-policy.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Privacy Policy</a>
-  <a href="about-us.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">About Us</a>
-  <a href="contact-us.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Contact Us</a>
+  <a href="https://www.explorerstalks.com/privacy-policy.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Privacy Policy</a>
+  <a href="https://www.explorerstalks.com/about-us.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">About Us</a>
+  <a href="https://www.explorerstalks.com/contact-us.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Contact Us</a>
 </div>
   
 
