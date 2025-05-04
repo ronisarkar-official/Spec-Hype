@@ -6,12 +6,15 @@ const headerHTML = `
   <div class="container mx-auto flex justify-between items-center transition-all duration-300 ease-in-out">
     
     <div class="font-bold text-xl text-blue-600 ml-4 sm:ml-20 transition-all duration-300 ease-in-out">
-  <img 
-    src="https://blogger.googleusercontent.com/img/a/AVvXsEhD8QgIGVZ9eNxJ6beNrUQG6INrZh8Koh5OZs3T7NTWz_s6006cAblotrBooyM9tfR6uAGZ6gpDwGzl7vqM7VJV23Grhwedn5BxMClQ7-90SAMb9vIBqiixm2QfW46yZM-_J8NFAFfB09wFaBN7mvjjwLxMWw2pWUe_dUJpnUHM0yKA9leRnII6Sb3nKcm2=s227" 
-    alt="Logo" 
-    class="h-8 sm:h-10 w-auto  ml-1 sm:ml-1"
-  >
+  <a href="https://www.explorerstalks.com">
+    <img 
+      src="https://www.explorerstalks.com/icons/logo.png" 
+      alt="Logo" 
+      class="h-8 sm:h-10 w-auto ml-1 sm:ml-1"
+    >
+  </a>
 </div>
+
 
 
     <!-- Desktop Nav -->
