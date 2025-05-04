@@ -99,7 +99,7 @@ export const mightLike = [
 		cards: [
 			{
 				image:
-					'destiny-2.webp',
+					'images/destiny-2.webp',
 				title: 'Destiny 2 System Requirements',
 				link: 'games/destiny-2-system-requirements.html',
 			},
