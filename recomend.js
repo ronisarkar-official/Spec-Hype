@@ -7,8 +7,10 @@ mightLike.forEach((section) => {
 		cardsHTML += `
       <div class="bg-white rounded-lg overflow-hidden transition p-2 group">
   <div class="overflow-hidden rounded-lg">
-    <img src="${card.image}" alt="Game Image"
-         class="w-full h-auto object-cover rounded-lg transform transition-transform duration-300 group-hover:scale-105">
+    <a href="${card.link}">
+      <img src="${card.image}" alt="Game Image"
+           class="w-full h-auto object-cover rounded-lg transform transition-transform duration-300 group-hover:scale-105">
+    </a>
   </div>
   <div class="mt-2">
     <span class="text-xs text-white bg-[#339af0] px-2 py-1 rounded">GAMES</span>
@@ -17,6 +19,7 @@ mightLike.forEach((section) => {
     </a>
   </div>
 </div>
+
 
     `;
 	});
