@@ -1,0 +1,12 @@
+# Custom 404 page
+ErrorDocument 404 /404.html
+
+# Enable URL rewriting
+RewriteEngine On
+
+# If requested file or directory doesn't exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite URLs without extension to .html files
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
