@@ -73,7 +73,7 @@ export const posts = [
 export const popularPosts = [
 	{
 		title1: 'Elden Ring Nightreign System Requirements',
-		link1: '#',
+		link1: 'games/elden-ring-nightreign-system-requirements.html',
 		image1:
 			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn6xCE7y45BPdP2mX3hLqRfg5jgJu5FGdOBx2yzC0Meoznlv_4hRANvVrvm7tsqdDADuP9tyjfyCDBhZsK5nWpXMCMVv3LcPr7CpStHOeJyCkrfpcQSYEpVf7GxSU4NrBdu4q-OuHURb9oqbvt3PHMuU1_kO1E142ykrB_d3ZfbkjtkxqUTbRH-aM-QCcO/w640-h326/Elden%20Ring%20Nightreign%20System%20Requirements.png',
 
