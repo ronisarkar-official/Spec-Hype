@@ -90,7 +90,7 @@ export const popularPosts = [
 		title4: 'Destiny 2 System Requirements',
 		link4: 'games/destiny-2-system-requirements.html',
 		image4:
-			'images/destiny-2.webp',
+			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbFti7lNurz32MPAL0mkbegiZfJZdBFao9KrdoQ0c3lgq3j00bh8VFGpcVzcrWIJgNqMa9qqfuogepEnT5qFjuOSvnpmE-OyrjCKeqmMyf-aBhCA7X60n7_cuoUFB85me0GvmV5ZSqKz4YmOdEu7r5_EtVMd6FbX7p36J8106czdyXnPeh0TkSd6Z4FAIU/w640-h360/Untitled%20defrrtsign.webp',
 	},
 ];
 
@@ -99,7 +99,7 @@ export const mightLike = [
 		cards: [
 			{
 				image:
-					'images/destiny-2.webp',
+					'../images/destiny-2.webp',
 				title: 'Destiny 2 System Requirements',
 				link: 'games/destiny-2-system-requirements.html',
 			},
