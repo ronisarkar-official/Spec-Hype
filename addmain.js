@@ -46,12 +46,29 @@ const headerHTML = `
   </div>
 
   <!-- Mobile Menu -->
-  <div id="mobile-menu" class="md:hidden overflow-hidden max-h-0 transition-all duration-500 ease-in-out flex flex-col mt-3 space-y-2 px-4">
-  <a href="https://www.explorerstalks.com" class="text-gray-700 hover:text-blue-500 transition-all duration-500 ease-in-out">Home</a>
-  <a href="#" class="text-gray-700 hover:text-blue-500 transition-all duration-500 ease-in-out">Guide</a>
-  <a href="privacy-policy.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Privacy Policy</a>
-  <a href="about-us.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">About Us</a>
-  <a href="contact-us.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Contact Us</a>
+<div id="mobile-menu" class="md:hidden overflow-hidden max-h-0 transition-all duration-500 ease-in-out flex flex-col mt-3 space-y-3 px-4 py-4 bg-white rounded-xl shadow-lg border border-gray-200">
+  <a href="https://www.explorerstalks.com" class="flex items-center gap-2 text-gray-800 hover:text-blue-600 hover:pl-2 transition-all duration-300 ease-in-out">
+    <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 9.75L12 4l9 5.75v10a1 1 0 01-1 1H4a1 1 0 01-1-1V9.75z"/></svg>
+    Home
+  </a>
+  <a href="#" class="flex items-center gap-2 text-gray-800 hover:text-blue-600 hover:pl-2 transition-all duration-300 ease-in-out">
+    <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M8 10h.01M12 10h.01M16 10h.01M21 12v1a9 9 0 11-18 0v-1"/></svg>
+    Guide
+  </a>
+  <a href="privacy-policy.html" class="flex items-center gap-2 text-gray-800 hover:text-blue-600 hover:pl-2 transition-all duration-300 ease-in-out">
+    <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
+    Privacy Policy
+  </a>
+  <a href="about-us.html" class="flex items-center gap-2 text-gray-800 hover:text-blue-600 hover:pl-2 transition-all duration-300 ease-in-out">
+    <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4S8 5.79 8 8s1.79 4 4 4z"/><path d="M6 20c0-2.67 5.33-4 6-4s6 1.33 6 4v1H6v-1z"/></svg>
+    About Us
+  </a>
+  <a href="contact-us.html" class="flex items-center gap-2 text-gray-800 hover:text-blue-600 hover:pl-2 transition-all duration-300 ease-in-out">
+    <svg class="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h2l2 3h8a2 2 0 012 2v2M3 5v14a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H9l-2-3H5a2 2 0 00-2 2z"/></svg>
+    Contact Us
+  </a>
+</div>
+
   
 
 </div>
