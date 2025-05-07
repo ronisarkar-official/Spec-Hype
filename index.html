@@ -65,10 +65,18 @@
 
 				<!-- Load More Button -->
 				<button
-					id="loadMoreBtn"
-					class="px-6 py-2 mx-auto text-white bg-blue-500 shadow hover:bg-blue-700 rounded transition btn-ping_dot">
-					Load More
-				</button>
+  id="loadMoreBtn"
+  class="relative flex items-center gap-3 px-6 py-3 mx-auto text-lg font-medium text-white bg-blue-600 rounded-full shadow-md transition-all duration-300 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300">
+
+  <!-- Green Ping Dot -->
+  <span class="relative flex h-3 w-3">
+    <span class="absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75 animate-ping"></span>
+    <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+  </span>
+
+  <span>Load More</span>
+</button>
+
 			</div>
 
 			<!-- Sidebar -->
