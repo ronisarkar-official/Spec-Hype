@@ -42,9 +42,9 @@ export const posts = [
 	},
 	{
 		title: 'Destiny 2 System Requirements',
-		description: 'Destiny 2 is an epic online-only multiplayer first-person shooter . . .',
-		image:
-			'images/destiny-2.webp',
+		description:
+			'Destiny 2 is an epic online-only multiplayer first-person shooter . . .',
+		image: 'images/destiny-2.webp',
 		link: 'games/destiny-2-system-requirements.html',
 	},
 	{
@@ -56,14 +56,16 @@ export const posts = [
 	},
 	{
 		title: 'The First Descendant system requirements',
-		description: 'If you’re a PC gamer who can’t wait to plunge into the stunning world . . .',
+		description:
+			'If you’re a PC gamer who can’t wait to plunge into the stunning world . . .',
 		image:
 			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM7FmPMO6HpkHog3uRiTWxNtqlziIIbS0M1g25HJOFWnPKUdpDeh-5fBf2rUsLPAbjQBL7AsrztuutnPNUgtvQntqs-5cVI4g0yccWuI7ErsGDsLXpSSWCzTufUdXeQkwj8qFu0KyqVSQYpOOh_xliPFhkfCFUdaYT2CyU5VbzQ3ZC9JFLz_zp5uxMQvmC/w640-h360/Unfdfffddfftitledd-design.webp',
 		link: 'games/the-first-descendant-system-requirements.html',
 	},
 	{
 		title: 'The Graveyard Shift System Requirements',
-		description: 'The Graveyard Shift, a thrilling survival horror game, has captivated players . . .',
+		description:
+			'The Graveyard Shift, a thrilling survival horror game, has captivated players . . .',
 		image:
 			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0RME1qitoD32dEnp_BmpsaeyGpUfkZM0aj5N0lNBEk5sH3TMp8f0xNz9ZuCvLui6rPoN1IC0s-NJ_VS3w6W45TPuUtFrKDKKJpsCLhiScxLFqKOEDOOlKzBjV8Fi6sKf6e_oFguKJZ64ZOuYV4L0buuZfwdqDeFknSs2dH6cYSI-KhH3xedGxd5dgUACD/w640-h360/wp-17161396491671886920802273103085-1024x576.png',
 		link: 'games/the-graveyard-shift-system-requirements.html',
@@ -73,22 +75,26 @@ export const posts = [
 export const popularPosts = [
 	{
 		title1: 'Elden Ring Nightreign System Requirements',
-		link1: 'https://www.explorerstalks.com/games/elden-ring-nightreign-system-requirements.html',
+		link1:
+			'https://www.explorerstalks.com/games/elden-ring-nightreign-system-requirements.html',
 		image1:
 			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn6xCE7y45BPdP2mX3hLqRfg5jgJu5FGdOBx2yzC0Meoznlv_4hRANvVrvm7tsqdDADuP9tyjfyCDBhZsK5nWpXMCMVv3LcPr7CpStHOeJyCkrfpcQSYEpVf7GxSU4NrBdu4q-OuHURb9oqbvt3PHMuU1_kO1E142ykrB_d3ZfbkjtkxqUTbRH-aM-QCcO/w640-h326/Elden%20Ring%20Nightreign%20System%20Requirements.png',
 
 		title2: 'Borderlands 4 Requirements',
-		link2: 'https://www.explorerstalks.com/games/borderlands-4-requirements.html',
+		link2:
+			'https://www.explorerstalks.com/games/borderlands-4-requirements.html',
 		image2:
 			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA7J4eGMsE3B7coQM6JGvObpOao2CDc2zrUkMhCe7teMKtqo4m5sMrt7BAkzeQPYwIoSj2C35Uv4jM-XDKJFQys2S773VgocEBROGAAqXifvzOuhhZcSM5zPMEqndB4h0Nh6e0o9YTc88wr6WQnH9Ri7nDMQTDR2X8IjtZVrLjRpBXBXoXWaz7IQMLL-3q/w640-h360/Borderlands%204%20Requirements%20Forecast.png',
 
 		title3: 'Hyper Light Breaker System Requirements',
-		link3: 'https://www.explorerstalks.com/games/hyper-light-breaker-system-requirements.html',
+		link3:
+			'https://www.explorerstalks.com/games/hyper-light-breaker-system-requirements.html',
 		image3:
 			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaWS9FhciBjTyzDEE2zOs2_inEbk5EuD1EYrZmanqyiOrWblFSA0WixGH1aeWfz_O1TOJMhWDi5uRvGj9PeUkPoOuj0bt5u6HxGbMOSTAEp0URY9l1Y_eQpc5ZhUOXP2uQYpVR8Vvc-npq7YbiPZY0lofuXq-P6cSE8-Gk4nBK_valfeqHNxpSR5S-YlF6/w640-h360/Hyper%20Light%20Breaker%20System%20Requirements%20.png',
 
 		title4: 'Destiny 2 System Requirements',
-		link4: 'https://www.explorerstalks.com/games/destiny-2-system-requirements.html',
+		link4:
+			'https://www.explorerstalks.com/games/destiny-2-system-requirements.html',
 		image4:
 			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbFti7lNurz32MPAL0mkbegiZfJZdBFao9KrdoQ0c3lgq3j00bh8VFGpcVzcrWIJgNqMa9qqfuogepEnT5qFjuOSvnpmE-OyrjCKeqmMyf-aBhCA7X60n7_cuoUFB85me0GvmV5ZSqKz4YmOdEu7r5_EtVMd6FbX7p36J8106czdyXnPeh0TkSd6Z4FAIU/w640-h360/Untitled%20defrrtsign.webp',
 	},
@@ -98,8 +104,7 @@ export const mightLike = [
 	{
 		cards: [
 			{
-				image:
-					'../images/destiny-2.webp',
+				image: '../images/destiny-2.webp',
 				title: 'Destiny 2 System Requirements',
 				link: 'https://www.explorerstalks.com/games/destiny-2-system-requirements.html',
 			},
