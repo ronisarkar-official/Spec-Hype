@@ -9,6 +9,61 @@
 	</head>
 	<body class="bg-[#dceef8] text-gray-800 min-h-screen w-full flex flex-col">
 		<!-- Main Content Area -->
+		<header id="navbar" class="bg-white shadow-md fixed top-0 left-0 w-full h-fit sm:h-fit z-50 p-4 transition-transform duration-300 ease-in-out">
+			<div class="container mx-auto flex justify-between items-center transition-all duration-300 ease-in-out">
+			  
+			  <div class="font-bold text-xl text-blue-600 ml-4 sm:ml-20 transition-all duration-300 ease-in-out">
+			<a href="https://www.explorerstalks.com">
+			  <img 
+				src="https://www.explorerstalks.com/icons/logo.png" 
+				alt="Logo" 
+				class="h-8 sm:h-10 w-auto ml-1 sm:ml-1"
+			  >
+			</a>
+		  </div>
+		  
+		  
+		  
+			  <!-- Desktop Nav -->
+			  <nav class="hidden md:flex items-center space-x-6 transition-opacity duration-300 ease-in-out">
+				<a href="https://www.explorerstalks.com" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Home</a>
+				<a href="#" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Games</a>
+				<a href="privacy-policy.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Privacy Policy</a>
+				<a href="about-us.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">About Us</a>
+				<a href="contact-us.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Contact Us</a>
+				
+			  </nav>
+			  <input 
+			type="text" 
+			id="searchInput"
+			placeholder="Search..." 
+			class="w-20 sm:w-fit mb-2 sm:mb-0 mr-0 sm:mr-6 border rounded-md px-3 py-1 transition-all duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-200 focus:ring-offset-2"
+		  />
+		  
+		  
+		  
+		  
+			  <!-- Mobile Menu Button -->
+			  <button id="menu-btn" class="md:hidden focus:outline-none transition-transform duration-300 ease-in-out hover:scale-110">
+				<svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" 
+					 viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+				  <path d="M4 6h16M4 12h16M4 18h16"/>
+				</svg>
+			  </button>
+			</div>
+		  
+			<div id="mobile-menu" class="md:hidden overflow-hidden max-h-0 transition-all duration-500 ease-in-out flex flex-col mt-3 space-y-3 px-4">
+			<a href="https://www.explorerstalks.com" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Home</a>
+			<a href="#" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Guide</a>
+			<a href="https://www.explorerstalks.com/privacy-policy.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Privacy Policy</a>
+			<a href="https://www.explorerstalks.com/about-us.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">About Us</a>
+			<a href="https://www.explorerstalks.com/contact-us.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Contact Us</a>
+		  </div>
+			
+		  
+		  </div>
+		  
+		  </header>
 		<main class="flex flex-col items-center justify-center flex-1">
 			<h1 class="text-9xl font-extrabold text-[#339af0] mb-4 animate-pulse">
 				404
@@ -48,14 +103,53 @@
 		</footer>
 
 		<!-- Back to Top -->
-		<button
-			id="backToTop"
-			aria-label="Back to top"
-			class="fixed bottom-6 right-6 p-3 rounded transition-opacity opacity-0 pointer-events-none">
-			<img src="icons/top.png" alt="" class="w-10 h-10" />
-		</button>
+		
+		<script>
+			const backToTopButton = document.getElementById('backToTop');
 
-		<script type="module" src="addmain.js" defer></script>
-		<script type="module" src="main.js" defer></script>
+// Show button after scrolling down 300px
+window.addEventListener('scroll', () => {
+	if (window.scrollY > 300) {
+		backToTopButton.classList.remove('opacity-0', 'pointer-events-none');
+	} else {
+		backToTopButton.classList.add('opacity-0', 'pointer-events-none');
+	}
+});
+
+// Scroll to top when clicked
+
+let lastScrollY = window.scrollY;
+const navbar = document.getElementById('navbar');
+
+window.addEventListener('scroll', () => {
+	if (window.scrollY > lastScrollY) {
+		// Scroll Down
+		navbar.style.transform = 'translateY(-100%)';
+	} else {
+		// Scroll Up
+		navbar.style.transform = 'translateY(0)';
+	}
+	lastScrollY = window.scrollY;
+});
+
+const menuBtn = document.getElementById('menu-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+
+let isOpen = false;
+
+menuBtn.addEventListener('click', () => {
+	isOpen = !isOpen;
+
+	if (isOpen) {
+		mobileMenu.classList.remove('max-h-0');
+		mobileMenu.classList.add('max-h-screen');
+	} else {
+		mobileMenu.classList.remove('max-h-screen');
+		mobileMenu.classList.add('max-h-0');
+	}
+});
+
+
+		</script>
 	</body>
 </html>
