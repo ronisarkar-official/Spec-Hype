@@ -8,7 +8,7 @@ const loadMoreBtn = document.getElementById('loadMoreBtn');
 function renderSkeletons(count) {
   const skeletonHTML = `
     <article class="animate-pulse bg-white rounded-lg shadow p-4 flex flex-col sm:flex-row gap-4">
-      <div class="bg-gray-300 w-full h-fit sm:w-60 rounded-md"></div>
+      <div class="bg-gray-300 w-full h-[136px] sm:w-60 rounded-md"></div>
       <div class="flex-1 space-y-4 py-1">
         <div class="h-4 bg-gray-300 rounded w-3/4"></div>
         <div class="h-4 bg-gray-200 rounded w-full"></div>
