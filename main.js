@@ -4,7 +4,7 @@ let visibleCount = 6;
 const postsContainer = document.getElementById('posts');
 const loadMoreBtn = document.getElementById('loadMoreBtn');
 
-// Render skeletons during initial page load
+// Render skeletons during initial window load
 function renderSkeletons(count) {
   const skeletonHTML = `
     <article class="animate-pulse bg-white rounded-lg shadow p-4 flex flex-col sm:flex-row gap-4">
@@ -21,13 +21,11 @@ function renderSkeletons(count) {
   }
 }
 
-// Clear skeletons
 function clearSkeletons() {
   const skeletons = postsContainer.querySelectorAll('.animate-pulse');
   skeletons.forEach(s => s.remove());
 }
 
-// Render actual posts
 function renderPosts(start, end) {
   const visiblePosts = posts.slice(start, end);
   visiblePosts.forEach(post => {
@@ -51,18 +49,16 @@ function renderPosts(start, end) {
   });
 }
 
-// 🚀 Show skeletons immediately on page load
-document.addEventListener('DOMContentLoaded', () => {
-  renderSkeletons(visibleCount);
+// 🟡 1. Render skeletons *immediately* on script run
+renderSkeletons(visibleCount);
 
-  // Simulate loading delay
-  setTimeout(() => {
-    clearSkeletons();
-    renderPosts(0, visibleCount);
-  }, 1000); // Change delay as needed
-});
+// 🟢 2. Once full page (images + CSS) is loaded, remove skeletons and load content
+window.onload = () => {
+  clearSkeletons();
+  renderPosts(0, visibleCount);
+};
 
-// Load more logic
+// 🔄 Load more functionality with skeletons
 loadMoreBtn.addEventListener('click', () => {
   const nextCount = visibleCount + 5;
   renderSkeletons(5);
