@@ -13,7 +13,7 @@ export const posts = [
 		description:
 			'As anticipation builds for the next installment in the beloved Borderlands franchise.',
 		image:
-			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA7J4eGMsE3B7coQM6JGvObpOao2CDc2zrUkMhCe7teMKtqo4m5sMrt7BAkzeQPYwIoSj2C35Uv4jM-XDKJFQys2S773VgocEBROGAAqXifvzOuhhZcSM5zPMEqndB4h0Nh6e0o9YTc88wr6WQnH9Ri7nDMQTDR2X8IjtZVrLjRpBXBXoXWaz7IQMLL-3q/w640-h360/Borderlands%204%20Requirements%20Forecast.png',
+			'https://ik.imagekit.io/t7v47ftyc/Borderlands%204%20Requirements%20Forecast%20(1).png?f-webp,q-auto',
 		link: 'games/borderlands-4-requirements.html',
 	},
 
