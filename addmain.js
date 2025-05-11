@@ -37,7 +37,7 @@ const headerHTML = `
 
 
     <!-- Mobile Menu Button -->
-    <button id="menu-btn" class="md:hidden focus:outline-none transition-transform duration-300 ease-in-out hover:scale-110">
+    <button id="menu-btn" aria-label="menu" class="md:hidden focus:outline-none transition-transform duration-300 ease-in-out hover:scale-110">
       <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" 
            viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
         <path d="M4 6h16M4 12h16M4 18h16"/>
