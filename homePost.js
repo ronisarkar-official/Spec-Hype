@@ -53,7 +53,7 @@ export const posts = [
 		title: 'Destiny 2 System Requirements',
 		description:
 			'Destiny 2 is an epic online-only multiplayer first-person shooter . . .',
-		image: 'images/destiny-2.webp',
+		image: 'https://ik.imagekit.io/t7v47ftyc/Untitled%20design.png?f-webp,q-auto',
 		link: 'games/destiny-2-system-requirements.html',
 	},
 	{
@@ -105,7 +105,7 @@ export const popularPosts = [
 		link4:
 			'https://www.explorerstalks.com/games/destiny-2-system-requirements.html',
 		image4:
-			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbFti7lNurz32MPAL0mkbegiZfJZdBFao9KrdoQ0c3lgq3j00bh8VFGpcVzcrWIJgNqMa9qqfuogepEnT5qFjuOSvnpmE-OyrjCKeqmMyf-aBhCA7X60n7_cuoUFB85me0GvmV5ZSqKz4YmOdEu7r5_EtVMd6FbX7p36J8106czdyXnPeh0TkSd6Z4FAIU/w640-h360/Untitled%20defrrtsign.webp',
+			'https://ik.imagekit.io/t7v47ftyc/Untitled%20design.png?f-webp,q-auto',
 	},
 ];
 
@@ -113,7 +113,7 @@ export const mightLike = [
 	{
 		cards: [
 			{
-				image: '../images/destiny-2.webp',
+				image: 'https://ik.imagekit.io/t7v47ftyc/Untitled%20design.png?f-webp,q-auto',
 				title: 'Destiny 2 System Requirements',
 				link: 'https://www.explorerstalks.com/games/destiny-2-system-requirements.html',
 			},
