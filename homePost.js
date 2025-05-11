@@ -93,7 +93,7 @@ export const popularPosts = [
 		link2:
 			'https://www.explorerstalks.com/games/borderlands-4-requirements.html',
 		image2:
-			'https://blogger.ghttps://ik.imagekit.io/t7v47ftyc/Borderlands%204%20Requirements%20Forecast%20(1).png?f-webp,q-auto',
+			'https://ik.imagekit.io/t7v47ftyc/Borderlands%204%20Requirements%20Forecast%20(1).png?f-webp,q-auto',
 
 		title3: 'Hyper Light Breaker System Requirements',
 		link3:
