@@ -5,7 +5,7 @@ export const posts = [
 		description:
 			'Empyreal is  known for its high-resolution environments, dynamic AI, and complex simulations.',
 		image:
-			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizzI_DLypXTsZn6AKsqJIFBNANJ9Erp0UFA6eR2U9ohxg7y2DEyKW0S5t3Rv1R9TxelwqfYPnI2jfEkjE-ySoKrauQpbIM0wkqPEacd2ekGSrALc-54uP1uOBWBhdKSf84BizKCgbqqqLEIIjUBzGPesXHXS7QQS9OBT9tJzQx5RYMBOCBXKJdX_sv5a9D/w640-h360/Untitled%20design%20(5).webp',
+			'https://ik.imagekit.io/t7v47ftyc/Untitled%20design%20(5).webp?f-webp,q-auto',
 		link: 'games/empyreal-system-requirements.html',
 	},
 	{
