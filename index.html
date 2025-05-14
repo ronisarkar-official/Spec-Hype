@@ -144,5 +144,17 @@
 
 		<script type="module" src="addmain.js"></script>
 		<script type="module" src="main.js"></script>
+		<script async type="application/javascript"
+        src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+<script>
+  (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
+    basicSubscriptions.init({
+      type: "NewsArticle",
+      isPartOfType: ["Product"],
+      isPartOfProductId: "CAowsvS6DA:openaccess",
+      clientOptions: { theme: "light", lang: "en-GB" },
+    });
+  });
+</script>
 	</body>
 </html>
