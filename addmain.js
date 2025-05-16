@@ -68,7 +68,7 @@ const sidebarList = document.querySelector('#sidebar ul');
 popularPosts.forEach((item) => {
 	sidebarList.innerHTML += `
   					<h2
-						class="text-sm font-semibold text-[#339af0] border-b pb-2 mb-4 uppercase">
+						class="text-sm font-semibold text-[#8F08C4] border-b pb-2 mb-4 uppercase">
 						Popular Posts
 					</h2>
 
@@ -90,7 +90,7 @@ popularPosts.forEach((item) => {
 
 						<div class="mt-2">
 							<a
-								class="text-base font-semibold leading-tight text-gray-800 hover:underline"
+								class="text-base font-semibold leading-tight text-black hover:underline"
 								href="${item.link1}"
 								>${item.title1}</a
 							>
