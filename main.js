@@ -33,7 +33,7 @@ function renderPosts(start, end) {
       <article class="bg-white rounded-lg shadow p-4 flex flex-col sm:flex-row gap-4">
         <div class="overflow-hidden rounded-lg">
           <a href="${post.link}">
-            <img src="${post.image}" alt="Thumbnail"
+            <img src="${post.image}" alt="Thumbnail fetchpriority="high" "
               class="w-full h-fit sm:w-60 rounded-md hover:scale-110 transition-transform duration-300" />
           </a>
         </div>
