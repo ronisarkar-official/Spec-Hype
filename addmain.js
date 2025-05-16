@@ -81,7 +81,7 @@ popularPosts.forEach((item) => {
         alt="Mecha Break"
         class="w-full h-40 object-cover rounded-md hover:scale-110 transition-transform duration-300" />
       <span
-        class="absolute bottom-6 left-2 bg-[#339af0] text-white text-xs font-bold px-2 py-1 rounded">
+        class="absolute bottom-6 left-2 bg-[#0E579F] text-white text-xs font-bold px-2 py-1 rounded">
         Games
       </span>
     </a>

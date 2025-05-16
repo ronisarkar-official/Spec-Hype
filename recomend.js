@@ -13,7 +13,7 @@ mightLike.forEach((section) => {
     </a>
   </div>
   <div class="mt-2">
-    <span class="text-xs text-white bg-[#339af0] px-2 py-1 rounded">GAMES</span>
+    <span class="text-xs text-white bg-[#0E579F] px-2 py-1 rounded">GAMES</span>
     <a class="font-semibold mt-2 text-gray-800 text-sm flex leading-snug" href="${card.link}">
       ${card.title}
     </a>
