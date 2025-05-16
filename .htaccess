@@ -11,4 +11,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 # Rewrite URLs without extension to .html files
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-Redirect 301 /ads.txt https://srv.adstxtmanager.com/19390/explorerstalks.com
+
