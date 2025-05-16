@@ -5,10 +5,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 		<title>Explorers Talks - Game News & System Requirements</title>
-		<link rel="alternate" type="application/rss+xml" title="RSS Feed for Explorer's Talks" href="https://explorerstalks.com/rss.xml">
+		<link
+			rel="alternate"
+			type="application/rss+xml"
+			title="RSS Feed for Explorer's Talks"
+			href="https://explorerstalks.com/rss.xml" />
 
-		<meta name="theme-color" content="#9c42f3">
-
+		<meta name="theme-color" content="#9c42f3" />
+		<meta name="robots" content="index, follow" />
 		<meta
 			name="description"
 			content="Explore game system requirements, performance guides, and updates for titles like Destiny 2, Mecha Break, and Elden Ring on Explorers Talks." />
@@ -46,10 +50,8 @@
 			async
 			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3533195027100960"
 			crossorigin="anonymous"></script>
-<!-- Only works if Vercel Analytics is enabled on your dashboard -->
-<script defer src="/_vercel/insights/script.js"></script>
-
-		
+		<!-- Only works if Vercel Analytics is enabled on your dashboard -->
+		<script defer src="/_vercel/insights/script.js"></script>
 
 		<script type="application/ld+json">
 			{
@@ -144,17 +146,19 @@
 
 		<script type="module" src="addmain.js"></script>
 		<script type="module" src="main.js"></script>
-		<script async type="application/javascript"
-        src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
-<script>
-  (self.SWG_BASIC = self.SWG_BASIC || []).push( basicSubscriptions => {
-    basicSubscriptions.init({
-      type: "NewsArticle",
-      isPartOfType: ["Product"],
-      isPartOfProductId: "CAowsvS6DA:openaccess",
-      clientOptions: { theme: "light", lang: "en-GB" },
-    });
-  });
-</script>
+		<script
+			async
+			type="application/javascript"
+			src="https://news.google.com/swg/js/v1/swg-basic.js"></script>
+		<script>
+			(self.SWG_BASIC = self.SWG_BASIC || []).push((basicSubscriptions) => {
+				basicSubscriptions.init({
+					type: 'NewsArticle',
+					isPartOfType: ['Product'],
+					isPartOfProductId: 'CAowsvS6DA:openaccess',
+					clientOptions: { theme: 'light', lang: 'en-GB' },
+				});
+			});
+		</script>
 	</body>
 </html>
