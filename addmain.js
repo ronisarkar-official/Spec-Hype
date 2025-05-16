@@ -8,7 +8,7 @@ const headerHTML = `
     <div class="font-bold text-xl text-blue-600 ml-4 sm:ml-20 transition-all duration-300 ease-in-out">
   <a href="https://www.spechype.com">
     <img 
-      src="https://www.spechype.com/icons/logo.png" 
+      src="https://www.spechype.com/icons/logo.wepb" 
       alt="Logo" 
       class="h-8 sm:h-10 w-auto ml-1 sm:ml-1"
     >
