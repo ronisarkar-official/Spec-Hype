@@ -6,9 +6,9 @@ const headerHTML = `
   <div class="container mx-auto flex justify-between items-center transition-all duration-300 ease-in-out">
     
     <div class="font-bold text-xl text-blue-600 ml-4 sm:ml-20 transition-all duration-300 ease-in-out">
-  <a href="https://www.explorerstalks.com">
+  <a href="https://www.spechype.com">
     <img 
-      src="https://www.explorerstalks.com/icons/spechype-logo.png" 
+      src="https://www.spechype.com/icons/logo.png" 
       alt="Logo" 
       class="h-8 sm:h-10 w-auto ml-1 sm:ml-1"
     >
@@ -19,8 +19,8 @@ const headerHTML = `
 
     <!-- Desktop Nav -->
     <nav class="hidden md:flex items-center space-x-6 transition-opacity duration-300 ease-in-out">
-      <a href="https://www.explorerstalks.com" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Home</a>
-      <a href="https://www.explorerstalks.com/terms-and-conditions.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Terms and Conditions</a>
+      <a href="https://www.spechype.com" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Home</a>
+      <a href="https://www.spechype.com/terms-and-conditions.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Terms and Conditions</a>
       <a href="privacy-policy.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Privacy Policy</a>
       <a href="about-us.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">About Us</a>
       <a href="contact-us.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Contact Us</a>
@@ -46,11 +46,11 @@ const headerHTML = `
   </div>
 
   <div id="mobile-menu" class="md:hidden overflow-hidden max-h-0 transition-all duration-500 ease-in-out flex flex-col mt-3 space-y-3 px-4">
-  <a href="https://www.explorerstalks.com" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Home</a>
-  <a href="https://www.explorerstalks.com/terms-and-conditions.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Terms and Conditions</a>
-  <a href="https://www.explorerstalks.com/privacy-policy.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Privacy Policy</a>
-  <a href="https://www.explorerstalks.com/about-us.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">About Us</a>
-  <a href="https://www.explorerstalks.com/contact-us.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Contact Us</a>
+  <a href="https://www.spechype.com" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Home</a>
+  <a href="https://www.spechype.com/terms-and-conditions.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Terms and Conditions</a>
+  <a href="https://www.spechype.com/privacy-policy.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Privacy Policy</a>
+  <a href="https://www.spechype.com/about-us.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">About Us</a>
+  <a href="https://www.spechype.com/contact-us.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Contact Us</a>
 </div>
   
 

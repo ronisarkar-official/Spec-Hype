@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.explorerstalks.com/sitemap.xml
+Sitemap: https://www.spechype.com/sitemap.xml
