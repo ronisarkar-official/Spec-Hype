@@ -31,19 +31,20 @@ function renderPosts(start, end) {
   visiblePosts.forEach(post => {
     const postHTML = `
       <article class="bg-white rounded-lg shadow p-4 flex flex-col sm:flex-row gap-4">
-        <div class="overflow-hidden rounded-lg">
-          <a href="${post.link}">
-            <img src="${post.image}" alt="Thumbnail fetchpriority="high" "
-              class="w-full h-fit sm:w-60 rounded-md hover:scale-110 transition-transform duration-300" />
-          </a>
-        </div>
-        <div>
-          <h2 class="text-lg font-semibold text-blue-700 hover:underline">
-            <a href="${post.link}">${post.title}</a>
-          </h2>
-          <p class="text-sm text-gray-600">${post.description}</p>
-        </div>
-      </article>
+  <div class="sm:w-60 w-full overflow-hidden rounded-lg shrink-0">
+    <a href="${post.link}">
+      <img src="${post.image}" alt="Thumbnail" fetchpriority="high"
+        class="w-full h-auto rounded-md hover:scale-110 transition-transform duration-300" />
+    </a>
+  </div>
+  <div class="flex-1">
+    <h2 class="text-lg font-semibold text-blue-700 hover:underline">
+      <a href="${post.link}">${post.title}</a>
+    </h2>
+    <p class="text-sm text-gray-600">${post.description}</p>
+  </div>
+</article>
+
     `;
     postsContainer.insertAdjacentHTML('beforeend', postHTML);
   });
