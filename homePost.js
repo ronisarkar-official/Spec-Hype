@@ -1,6 +1,14 @@
 export const posts = [
 	
 	{
+		title: 'Dune: Awakening System Requirements',
+		description:
+			'Check the official system requirements for Dune: Awakening. Find out if your PC can run the game with our detailed guide.',
+		image:
+			'https://ik.imagekit.io/2zeqzsn1n/dune.png?f-webp,q-auto',
+		link: 'games/dune-awakening-system-requirements.html',
+	},
+	{
 		title: 'Empyreal System Requirements - Can You Run It?',
 		description:
 			'Empyreal is  known for its high-resolution environments, dynamic AI, and complex simulations.',
