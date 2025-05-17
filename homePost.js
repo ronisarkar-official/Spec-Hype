@@ -3,7 +3,7 @@ export const posts = [
 	{
 		title: 'Dune: Awakening System Requirements',
 		description:
-			'Check the official system requirements for Dune: Awakening. Find out if your PC can run the game with our detailed guide.',
+			'Check the official system requirements for Dune: Awakening.',
 		image:
 			'https://ik.imagekit.io/2zeqzsn1n/dune.png?f-webp,q-auto',
 		link: 'games/dune-awakening-system-requirements.html',
