@@ -38,9 +38,9 @@ function renderPosts(start, end) {
     </a>
   </div>
   <div class="flex-1">
-    <h2 class="text-lg font-semibold text-blue-700 hover:underline">
+    <h1 class="text-lg font-semibold text-blue-700 hover:underline">
       <a href="${post.link}">${post.title}</a>
-    </h2>
+    </h1>
     <p class="text-sm text-gray-600">${post.description}</p>
   </div>
 </article>
