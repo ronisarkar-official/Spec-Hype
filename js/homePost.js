@@ -105,7 +105,7 @@ export const popularPosts = [
 
 		title3: 'Dune: Awakening System Requirements',
 		link3:
-			'games/dune-awakening-system-requirements.html',
+			'https://www.spechype.com/games/dune-awakening-system-requirements.html',
 		image3:
 			'https://ik.imagekit.io/2zeqzsn1n/dune.png?f-webp,q-auto',
 
