@@ -121,7 +121,7 @@ popularPosts.forEach((item) => {
     <img
       src="${item.image3}"
       alt="Monster Hunter"
-      class="w-fit h-[57px] object-cover rounded-md" />
+      class="w-[88px] h-[57px] object-cover rounded-md" />
   </a>
   <div>
     <a
