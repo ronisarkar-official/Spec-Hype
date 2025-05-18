@@ -81,18 +81,24 @@
 
 				<!-- Load More Button -->
 				<button
-					id="loadMoreBtn"
-					class="relative flex items-center gap-3 px-5 py-3 mx-auto text-lg font-medium text-white bg-blue-600 rounded-lg shadow-md transition-all duration-300 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-300">
-					<!-- Green Ping Dot -->
-					<span class="relative flex h-3 w-3">
-						<span
-							class="absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75 animate-ping"></span>
-						<span
-							class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
-					</span>
+  id="loadMoreBtn"
+  class="relative flex items-center gap-3 px-5 py-3 mx-auto text-lg font-medium text-white rounded-full shadow-md 
+         transition-all duration-300 
+         bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 
+         hover:brightness-110 focus:outline-none focus:ring-4 focus:ring-blue-300"
+>
+  <!-- Green Ping Dot -->
+  <span class="relative flex h-3 w-3">
+    <span class="absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75 animate-ping"></span>
+    <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+  </span>
 
-					<span>Load More</span>
-				</button>
+  <span>
+    Load More 
+    
+  </span>
+</button>
+
 			</div>
 
 			<!-- Sidebar -->
@@ -120,18 +126,7 @@
 			class="fixed bottom-6 right-6 p-3 rounded transition-opacity opacity-0 pointer-events-none">
 			<img src="icons/top.png" alt="Back to top" class="w-10 h-10" />
 		</button>
-<script>
-  window.addEventListener('DOMContentLoaded', () => {
-    const posts = document.querySelectorAll('.post');
 
-    posts.forEach((post, index) => {
-      setTimeout(() => {
-        post.classList.remove('opacity-0', 'translate-y-5');
-        post.classList.add('opacity-100', 'translate-y-0');
-      }, index * 100); // staggered animation if multiple posts
-    });
-  });
-</script>
 
 		<script type="module" src="js/addmain.js"></script>
 		<script type="module" src="js/main.js"></script>
