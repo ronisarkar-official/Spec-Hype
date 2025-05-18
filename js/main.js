@@ -43,8 +43,7 @@ function renderPosts(start, end) {
       <img
         src="${post.image}"
         alt="${post.title}"
-        loading="lazy"
-        decoding="async"
+        fetchpriority="high"
         class="w-full h-auto rounded-md hover:scale-110 transition-transform duration-300"
       />
     </a>
