@@ -100,56 +100,55 @@ popularPosts.forEach((item) => {
 
 					<!-- List of Other Posts -->
 					<ul class="space-y-3">
-						<li class="flex items-start gap-3">
-  <a href="${item.link2}">
-    <img
-      src="${item.image2}"
-      alt="Monster Hunter"
-      class="w-[88px] h-[57px] object-cover rounded-md" />
-  </a>
-  <div>
-    <a
-      class="text-sm font-semibold text-gray-800 hover:underline"
-      href="${item.link2}">
-      ${item.title2}
+  <li class="flex items-start gap-3">
+    <a href="${item.link2}">
+      <img
+        src="${item.image2}"
+        alt="Monster Hunter"
+        class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
     </a>
-  </div>
-</li>
+    <div class="flex-1">
+      <a
+        class="text-sm font-semibold text-gray-800 hover:underline"
+        href="${item.link2}">
+        ${item.title2}
+      </a>
+    </div>
+  </li>
 
-						<li class="flex items-start gap-3">
-  <a href="${item.link3}">
-    <img
-      src="${item.image3}"
-      alt="Monster Hunter"
-      class="w-[88px] h-[57px] object-cover rounded-md" />
-  </a>
-  <div>
-    <a
-      class="text-sm font-semibold text-gray-800 hover:underline"
-      href="${item.link3}">
-      ${item.title3}
+  <li class="flex items-start gap-3">
+    <a href="${item.link3}">
+      <img
+        src="${item.image3}"
+        alt="Monster Hunter"
+        class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
     </a>
-  </div>
-</li>
+    <div class="flex-1">
+      <a
+        class="text-sm font-semibold text-gray-800 hover:underline"
+        href="${item.link3}">
+        ${item.title3}
+      </a>
+    </div>
+  </li>
 
-
-						<li class="flex items-start gap-3">
-  <a href="${item.link4}">
-    <img
-      src="${item.image4}"
-      alt="Monster Hunter"
-      class="w-[88px] h-[57px] object-cover rounded-md" />
-  </a>
-  <div>
-    <a
-      class="text-sm font-semibold text-gray-800 hover:underline"
-      href="${item.link4}">
-      ${item.title4}
+  <li class="flex items-start gap-3">
+    <a href="${item.link4}">
+      <img
+        src="${item.image4}"
+        alt="Monster Hunter"
+        class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
     </a>
-  </div>
-</li>
+    <div class="flex-1">
+      <a
+        class="text-sm font-semibold text-gray-800 hover:underline"
+        href="${item.link4}">
+        ${item.title4}
+      </a>
+    </div>
+  </li>
+</ul>
 
-					</ul>
   `;
 });
 
