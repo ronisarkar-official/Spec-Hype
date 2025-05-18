@@ -2,4 +2,8 @@ html {
     scroll-behavior: smooth;
   }
 
-  
+  .post-enter {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}

@@ -30,7 +30,7 @@ const headerHTML = `
   type="text" 
   id="searchInput"
   placeholder="Search..." 
-  class="w-20 sm:w-fit mb-2 sm:mb-0 mr-0 sm:mr-6 border rounded-md px-3 py-1 transition-all duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-200 focus:ring-offset-2"
+  class="w-40 sm:w-64 mb-2 sm:mb-0 mr-0 sm:mr-6 border rounded-md px-3 py-1 transition-all duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-200 focus:ring-offset-2"
 />
 
 

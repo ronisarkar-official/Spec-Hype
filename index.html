@@ -120,6 +120,18 @@
 			class="fixed bottom-6 right-6 p-3 rounded transition-opacity opacity-0 pointer-events-none">
 			<img src="icons/top.png" alt="Back to top" class="w-10 h-10" />
 		</button>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const posts = document.querySelectorAll('.post');
+
+    posts.forEach((post, index) => {
+      setTimeout(() => {
+        post.classList.remove('opacity-0', 'translate-y-5');
+        post.classList.add('opacity-100', 'translate-y-0');
+      }, index * 100); // staggered animation if multiple posts
+    });
+  });
+</script>
 
 		<script type="module" src="js/addmain.js"></script>
 		<script type="module" src="js/main.js"></script>
