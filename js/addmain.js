@@ -5,7 +5,7 @@ const headerHTML = `
     <header id="navbar" class="bg-white shadow-md fixed top-0 left-0 w-full h-fit sm:h-fit z-50 p-4 transition-transform duration-300 ease-in-out">
   <div class="container mx-auto flex justify-between items-center transition-all duration-300 ease-in-out">
     
-    <div class="font-bold text-xl text-blue-600 ml-4 sm:ml-20 transition-all duration-300 ease-in-out">
+    <div class=" ml-4 sm:ml-20 ">
   <a href="https://www.spechype.com">
     <img 
       src="https://www.spechype.com/icons/logo.webp" 
