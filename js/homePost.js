@@ -93,25 +93,25 @@ export const popularPosts = [
 	{
 		title1: 'Elden Ring Nightreign System Requirements',
 		link1:
-			'https://www.explorerstalks.com/games/elden-ring-nightreign-system-requirements.html',
+			'https://www.spechype.com/games/elden-ring-nightreign-system-requirements.html',
 		image1:
 			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn6xCE7y45BPdP2mX3hLqRfg5jgJu5FGdOBx2yzC0Meoznlv_4hRANvVrvm7tsqdDADuP9tyjfyCDBhZsK5nWpXMCMVv3LcPr7CpStHOeJyCkrfpcQSYEpVf7GxSU4NrBdu4q-OuHURb9oqbvt3PHMuU1_kO1E142ykrB_d3ZfbkjtkxqUTbRH-aM-QCcO/w640-h326/Elden%20Ring%20Nightreign%20System%20Requirements.png',
 
 		title2: 'Borderlands 4 Requirements',
 		link2:
-			'https://www.explorerstalks.com/games/borderlands-4-requirements.html',
+			'https://www.spechype.com/games/borderlands-4-requirements.html',
 		image2:
 			'https://ik.imagekit.io/t7v47ftyc/Borderlands%204%20Requirements%20Forecast%20(1).png?f-webp,q-auto',
 
-		title3: 'Hyper Light Breaker System Requirements',
+		title3: 'Dune: Awakening System Requirements',
 		link3:
-			'https://www.explorerstalks.com/games/hyper-light-breaker-system-requirements.html',
+			'games/dune-awakening-system-requirements.html',
 		image3:
-			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaWS9FhciBjTyzDEE2zOs2_inEbk5EuD1EYrZmanqyiOrWblFSA0WixGH1aeWfz_O1TOJMhWDi5uRvGj9PeUkPoOuj0bt5u6HxGbMOSTAEp0URY9l1Y_eQpc5ZhUOXP2uQYpVR8Vvc-npq7YbiPZY0lofuXq-P6cSE8-Gk4nBK_valfeqHNxpSR5S-YlF6/w640-h360/Hyper%20Light%20Breaker%20System%20Requirements%20.png',
+			'https://ik.imagekit.io/2zeqzsn1n/dune.png?f-webp,q-auto',
 
 		title4: 'Destiny 2 System Requirements',
 		link4:
-			'https://www.explorerstalks.com/games/destiny-2-system-requirements.html',
+			'https://www.spechype.com/games/destiny-2-system-requirements.html',
 		image4:
 			'https://ik.imagekit.io/t7v47ftyc/Untitled%20design.png?f-webp,q-auto',
 	},
@@ -123,37 +123,37 @@ export const mightLike = [
 			{
 				image: 'https://ik.imagekit.io/t7v47ftyc/Untitled%20design.png?f-webp,q-auto',
 				title: 'Destiny 2 System Requirements',
-				link: 'https://www.explorerstalks.com/games/destiny-2-system-requirements.html',
+				link: 'https://www.spechype.com/games/destiny-2-system-requirements.html',
 			},
 			{
 				image:
 					'https://ik.imagekit.io/t7v47ftyc/Borderlands%204%20Requirements%20Forecast%20(1).png?f-webp,q-auto',
 				title: 'Borderlands 4 Requirements Forecast for PC',
-				link: 'https://www.explorerstalks.com/games/borderlands-4-requirements.html',
+				link: 'https://www.spechype.com/games/borderlands-4-requirements.html',
 			},
 			{
 				image:
 					'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiok3RIHSWyQd3rFlXC5-PG3lluq9KwvSyqKr0q_sStZrc_aQ6088wt1P6p-sO_3CGwfMxJYowJa7U_nIn_tmUkudzDgDxTsmuIX6CtH8lDk-4Z06Yce5PLarjN6HADbg8_mmI9iLmIugWPlHaOXArvk-fRDnhtaGTKEOfXgyp8HaP3ePSb594njGBzfcOF/w640-h360/Cricket%2024%20PC%20System%20Requirements.webp',
 				title: 'Cricket 24 PC System Requirements 2025',
-				link: 'https://www.explorerstalks.com/games/cricket-24-pc-system-requirements-2025.html',
+				link: 'https://www.spechype.com/games/cricket-24-pc-system-requirements-2025.html',
 			},
 			{
 				image:
 					'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaWS9FhciBjTyzDEE2zOs2_inEbk5EuD1EYrZmanqyiOrWblFSA0WixGH1aeWfz_O1TOJMhWDi5uRvGj9PeUkPoOuj0bt5u6HxGbMOSTAEp0URY9l1Y_eQpc5ZhUOXP2uQYpVR8Vvc-npq7YbiPZY0lofuXq-P6cSE8-Gk4nBK_valfeqHNxpSR5S-YlF6/w640-h360/Hyper%20Light%20Breaker%20System%20Requirements%20.png',
 				title: 'Hyper Light Breaker System Requirements',
-				link: 'https://www.explorerstalks.com/games/hyper-light-breaker-system-requirements.html',
+				link: 'https://www.spechype.com/games/hyper-light-breaker-system-requirements.html',
 			},
 			{
 				image:
 					'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn6xCE7y45BPdP2mX3hLqRfg5jgJu5FGdOBx2yzC0Meoznlv_4hRANvVrvm7tsqdDADuP9tyjfyCDBhZsK5nWpXMCMVv3LcPr7CpStHOeJyCkrfpcQSYEpVf7GxSU4NrBdu4q-OuHURb9oqbvt3PHMuU1_kO1E142ykrB_d3ZfbkjtkxqUTbRH-aM-QCcO/w640-h326/Elden%20Ring%20Nightreign%20System%20Requirements.png',
 				title: 'Elden Ring Nightreign System Requirements',
-				link: 'https://www.explorerstalks.com/games/elden-ring-nightreign-system-requirements.html',
+				link: 'https://www.spechype.com/games/elden-ring-nightreign-system-requirements.html',
 			},
 			{
 				image:
 					'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUHyDiiYE5n4oiMa6uZtstLxGfUNGj4KR8zpum4GCcFleCf2mlbxjk02o8OMFH-y1OnpU0UNPedBnRavSC9kin0WbYlMK72dc6diXjmSIYhLq2XqO8ffR-gesQqOTDu2uIw-Dms0DvOVAIKZNcpIIahgDfKgQQsVtqBPLebl7Ws7zh4O88WLPJQy7RUDTW/w640-h360/Subnautica%202%20system%20requirements.png',
 				title: 'Subnautica 2 system requirements',
-				link: 'https://www.explorerstalks.com/games/subnautica-2-system-requirements.html',
+				link: 'https://www.spechype.com/games/subnautica-2-system-requirements.html',
 			},
 		],
 	},
