@@ -79,6 +79,8 @@ popularPosts.forEach((item) => {
       <img
         src="${item.image1}"
         alt="Mecha Break"
+        width="248"
+              height="135"
         class="w-full h-auto rounded-md hover:scale-110 transition-transform duration-300" />
       <span
         class="absolute bottom-6 left-2 bg-[#0E579F] text-white text-xs font-bold px-2 py-1 rounded">
@@ -105,6 +107,8 @@ popularPosts.forEach((item) => {
       <img
         src="${item.image2}"
         alt="Monster Hunter"
+        width="88"
+        height="57"
         class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
     </a>
     <div class="flex-1">
@@ -121,6 +125,8 @@ popularPosts.forEach((item) => {
       <img
         src="${item.image3}"
         alt="Monster Hunter"
+        width="88"
+              height="57"
         class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
     </a>
     <div class="flex-1">
@@ -137,6 +143,8 @@ popularPosts.forEach((item) => {
       <img
         src="${item.image4}"
         alt="Monster Hunter"
+        width="88"
+              height="57"
         class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
     </a>
     <div class="flex-1">
