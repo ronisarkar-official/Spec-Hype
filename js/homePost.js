@@ -55,7 +55,7 @@ export const posts = [
 			'Greetings, fellow gamers! Are you prepared to dive straight into Subnautica 2?',
 		image:
 			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUHyDiiYE5n4oiMa6uZtstLxGfUNGj4KR8zpum4GCcFleCf2mlbxjk02o8OMFH-y1OnpU0UNPedBnRavSC9kin0WbYlMK72dc6diXjmSIYhLq2XqO8ffR-gesQqOTDu2uIw-Dms0DvOVAIKZNcpIIahgDfKgQQsVtqBPLebl7Ws7zh4O88WLPJQy7RUDTW/w640-h360/Subnautica%202%20system%20requirements.png',
-		link: 'games/subnautica-2-system-requirements.html',
+		link: 'games/subnautica-2-requirements.html',
 	},
 	{
 		title: 'Destiny 2 System Requirements',
