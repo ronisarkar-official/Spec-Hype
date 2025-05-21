@@ -52,10 +52,10 @@ export const posts = [
 	{
 		title: 'Elden Ring Nightreign System Requirements - Can i run it?',
 		description:
-			'Elden Ring Nightreign is the newest story thatElden Ring Nightreign . . .',
+			'Check the full PC system requirements for Elden Ring: Nightreign, including minimum and recommended specs, 4K gaming builds, storage tips, and co-op settings.',
 		image:
 			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn6xCE7y45BPdP2mX3hLqRfg5jgJu5FGdOBx2yzC0Meoznlv_4hRANvVrvm7tsqdDADuP9tyjfyCDBhZsK5nWpXMCMVv3LcPr7CpStHOeJyCkrfpcQSYEpVf7GxSU4NrBdu4q-OuHURb9oqbvt3PHMuU1_kO1E142ykrB_d3ZfbkjtkxqUTbRH-aM-QCcO/w640-h326/Elden%20Ring%20Nightreign%20System%20Requirements.png',
-		link: 'games/elden-ring-nightreign-requirements.html',
+		link: 'games/elden-ring-nightreign-pc-requirements.html',
 	},
 	{
 		title: 'Subnautica 2 system requirements',
@@ -101,7 +101,7 @@ export const popularPosts = [
 	{
 		title1: 'Elden Ring Nightreign System Requirements',
 		link1:
-			'https://www.spechype.com/games/elden-ring-nightreign-requirements.html',
+			'https://www.spechype.com/games/elden-ring-nightreign-pc-requirements.html',
 		image1:
 			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn6xCE7y45BPdP2mX3hLqRfg5jgJu5FGdOBx2yzC0Meoznlv_4hRANvVrvm7tsqdDADuP9tyjfyCDBhZsK5nWpXMCMVv3LcPr7CpStHOeJyCkrfpcQSYEpVf7GxSU4NrBdu4q-OuHURb9oqbvt3PHMuU1_kO1E142ykrB_d3ZfbkjtkxqUTbRH-aM-QCcO/w640-h326/Elden%20Ring%20Nightreign%20System%20Requirements.png',
 
@@ -155,7 +155,7 @@ export const mightLike = [
 				image:
 					'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgn6xCE7y45BPdP2mX3hLqRfg5jgJu5FGdOBx2yzC0Meoznlv_4hRANvVrvm7tsqdDADuP9tyjfyCDBhZsK5nWpXMCMVv3LcPr7CpStHOeJyCkrfpcQSYEpVf7GxSU4NrBdu4q-OuHURb9oqbvt3PHMuU1_kO1E142ykrB_d3ZfbkjtkxqUTbRH-aM-QCcO/w640-h326/Elden%20Ring%20Nightreign%20System%20Requirements.png',
 				title: 'Elden Ring Nightreign System Requirements',
-				link: 'https://www.spechype.com/games/elden-ring-nightreign-requirements.html',
+				link: 'https://www.spechype.com/games/elden-ring-nightreign-pc-requirements.html',
 			},
 			{
 				image:
