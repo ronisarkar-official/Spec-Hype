@@ -44,7 +44,7 @@ export const posts = [
 
 	{
 		title: 'Hyper Light Breaker System Requirements - Can I Run It?',
-		description: '"Hyper Light Breaker" is an upcoming roguelite action game.',
+		description: 'Hyper Light Breaker" is an upcoming roguelite action game.',
 		image:
 			'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaWS9FhciBjTyzDEE2zOs2_inEbk5EuD1EYrZmanqyiOrWblFSA0WixGH1aeWfz_O1TOJMhWDi5uRvGj9PeUkPoOuj0bt5u6HxGbMOSTAEp0URY9l1Y_eQpc5ZhUOXP2uQYpVR8Vvc-npq7YbiPZY0lofuXq-P6cSE8-Gk4nBK_valfeqHNxpSR5S-YlF6/w640-h360/Hyper%20Light%20Breaker%20System%20Requirements%20.png',
 		link: 'games/hyper-light-breaker-requirements.html',
