@@ -1,24 +1,6 @@
 import { mightLike } from './homePost.js';
 
-const tocList = document.getElementById('toc-list');
 
-document.querySelectorAll('section').forEach((sec, index) => {
-	const h2 = sec.querySelector('h2');
-	if (!h2) return;
-
-	// Generate a simple ID like "section-1", "section-2", etc.
-	const autoId = `section-${index + 1}`;
-	sec.id = autoId;
-
-	const li = document.createElement('li');
-	const a = document.createElement('a');
-	a.href = `#${autoId}`;
-	a.textContent = h2.textContent;
-	a.className = 'text-indigo-600 hover:underline';
-
-	li.appendChild(a);
-	tocList.appendChild(li);
-});
 
 let cardsHTML = '';
 
@@ -57,3 +39,22 @@ const sectionHTML = `
 `;
 
 document.getElementById('dynamic-section').innerHTML = sectionHTML;
+const tocList = document.getElementById('toc-list');
+
+document.querySelectorAll('section').forEach((sec, index) => {
+	const h2 = sec.querySelector('h2');
+	if (!h2) return;
+
+	// Generate a simple ID like "section-1", "section-2", etc.
+	const autoId = `section-${index + 1}`;
+	sec.id = autoId;
+
+	const li = document.createElement('li');
+	const a = document.createElement('a');
+	a.href = `#${autoId}`;
+	a.textContent = h2.textContent;
+	a.className = 'text-indigo-600 hover:underline';
+
+	li.appendChild(a);
+	tocList.appendChild(li);
+});
