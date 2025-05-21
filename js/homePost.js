@@ -6,7 +6,7 @@ export const posts = [
 			'Get detailed Ark 2 PC specs, optimization tips, benchmarking data, and upgrade paths for the ultimate dino-slaying experience.',
 		image:
 			'https://ik.imagekit.io/2zeqzsn1n/ark-2.webp?f-webp,q-auto',
-		link: 'games/ark2-system-requirements',
+		link: 'games/ark2-system-requirements.html',
 	},
 	{
 		title: 'Dune: Awakening System Requirements',
