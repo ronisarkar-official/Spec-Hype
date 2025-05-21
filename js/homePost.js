@@ -1,6 +1,14 @@
 export const posts = [
 	
 	{
+		title: 'Ark 2 System Requirements - Can I Run It?',
+		description:
+			'Get detailed Ark 2 PC specs, optimization tips, benchmarking data, and upgrade paths for the ultimate dino-slaying experience.',
+		image:
+			'https://ik.imagekit.io/2zeqzsn1n/ark-2.webp?f-webp,q-auto',
+		link: 'games/ark2-system-requirements',
+	},
+	{
 		title: 'Dune: Awakening System Requirements',
 		description:
 			'Check the official system requirements for Dune: Awakening. Find out if your PC can run the game with our detailed guide.',
