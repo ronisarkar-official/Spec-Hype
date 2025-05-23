@@ -7,6 +7,11 @@
   </url>  
 
 <url>
+    <loc>https://www.spechype.com/games/clair-obscur-expedition-33-requirements.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+<url>
     <loc>https://www.spechype.com/games/ark2-system-requirements.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
