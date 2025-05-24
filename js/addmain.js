@@ -63,102 +63,98 @@ const headerHTML = `
 // Insert the navbar at the top of the <body>
 document.body.insertAdjacentHTML('afterbegin', headerHTML);
 
-const sidebarList = document.querySelector('#sidebar div');
+const sidebarList = document.querySelector('#sidebar ul');
 
 popularPosts.forEach((item) => {
 	sidebarList.innerHTML += `
-  					<div class="space-y-2">
-  <h2 class="text-sm font-semibold text-[#8F08C4] border-b pb-2 mb-4 uppercase">
-    Popular Posts
-  </h2>
+  					<li><h2
+						class="text-sm font-semibold text-[#8F08C4] border-b pb-2 mb-4 uppercase">
+						Popular Posts
+					</h2></li>
 
-  <!-- Featured Post -->
-  <div class="mb-4">
-    <div class="relative overflow-hidden rounded-lg">
-      <a href="${item.link1}">
-        <img
-          src="${item.image1}"
-          alt="Mecha Break"
-          width="248"
-          height="135"
-          class="w-full h-auto rounded-md hover:scale-110 transition-transform duration-300"
-        />
-        <span
-          class="absolute bottom-6 left-2 bg-[#0E579F] text-white text-xs font-bold px-2 py-1 rounded">
-          Games
-        </span>
-      </a>
-    </div>
-
-    <div class="mt-2">
-      <a
-        class="text-base font-semibold leading-tight text-black hover:underline"
-        href="${item.link1}">
-        ${item.title1}
-      </a>
-    </div>
+					<!-- Featured Post -->
+				<li>	<div class="mb-4">
+  <div class="relative overflow-hidden rounded-lg">
+    <a href="${item.link1}">
+      <img
+        src="${item.image1}"
+        alt="Mecha Break"
+        width="248"
+              height="135"
+        class="w-full h-auto rounded-md hover:scale-110 transition-transform duration-300" />
+      <span
+        class="absolute bottom-6 left-2 bg-[#0E579F] text-white text-xs font-bold px-2 py-1 rounded">
+        Games
+      </span>
+    </a>
   </div>
-
-  <!-- List of Other Posts -->
-  <ul class="space-y-3">
-    <li class="flex items-start gap-3">
-      <a href="${item.link2}">
-        <img
-          src="${item.image2}"
-          alt="Monster Hunter"
-          width="88"
-          height="57"
-          class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0"
-        />
-      </a>
-      <div class="flex-1">
-        <a
-          class="text-sm font-semibold text-gray-800 hover:underline"
-          href="${item.link2}">
-          ${item.title2}
-        </a>
-      </div>
-    </li>
-
-    <li class="flex items-start gap-3">
-      <a href="${item.link3}">
-        <img
-          src="${item.image3}"
-          alt="Monster Hunter"
-          width="88"
-          height="57"
-          class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0"
-        />
-      </a>
-      <div class="flex-1">
-        <a
-          class="text-sm font-semibold text-gray-800 hover:underline"
-          href="${item.link3}">
-          ${item.title3}
-        </a>
-      </div>
-    </li>
-
-    <li class="flex items-start gap-3">
-      <a href="${item.link4}">
-        <img
-          src="${item.image4}"
-          alt="Monster Hunter"
-          width="88"
-          height="57"
-          class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0"
-        />
-      </a>
-      <div class="flex-1">
-        <a
-          class="text-sm font-semibold text-gray-800 hover:underline"
-          href="${item.link4}">
-          ${item.title4}
-        </a>
-      </div>
-    </li>
-  </ul>
 </div>
+<div class="mt-2">
+							<a
+								class="text-base font-semibold leading-tight text-black hover:underline"
+								href="${item.link1}"
+								>${item.title1}</a
+							>
+							
+						</div>
+					</div></li>
+
+					<!-- List of Other Posts -->
+					<ul class="space-y-3">
+  <li class="flex items-start gap-3">
+    <a href="${item.link2}">
+      <img
+        src="${item.image2}"
+        alt="Monster Hunter"
+        width="88"
+        height="57"
+        class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
+    </a>
+    <div class="flex-1">
+      <a
+        class="text-sm font-semibold text-gray-800 hover:underline"
+        href="${item.link2}">
+        ${item.title2}
+      </a>
+    </div>
+  </li>
+
+  <li class="flex items-start gap-3">
+    <a href="${item.link3}">
+      <img
+        src="${item.image3}"
+        alt="Monster Hunter"
+        width="88"
+              height="57"
+        class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
+    </a>
+    <div class="flex-1">
+      <a
+        class="text-sm font-semibold text-gray-800 hover:underline"
+        href="${item.link3}">
+        ${item.title3}
+      </a>
+    </div>
+  </li>
+
+  <li class="flex items-start gap-3">
+    <a href="${item.link4}">
+      <img
+        src="${item.image4}"
+        alt="Monster Hunter"
+        width="88"
+              height="57"
+        class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
+    </a>
+    <div class="flex-1">
+      <a
+        class="text-sm font-semibold text-gray-800 hover:underline"
+        href="${item.link4}">
+        ${item.title4}
+      </a>
+    </div>
+  </li>
+</ul>
 
   `;
 });
