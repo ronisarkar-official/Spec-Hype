@@ -63,11 +63,11 @@ const headerHTML = `
 // Insert the navbar at the top of the <body>
 document.body.insertAdjacentHTML('afterbegin', headerHTML);
 
-const sidebarList = document.querySelector('#sidebar div');
+const sidebarList = document.querySelector('#sidebar side');
 
 popularPosts.forEach((item) => {
 	sidebarList.innerHTML += `
-  					<!-- Section Title -->
+  					
 <h2 class="text-sm font-semibold text-[#8F08C4] border-b pb-2 mb-4 uppercase">
   Popular Posts
 </h2>
