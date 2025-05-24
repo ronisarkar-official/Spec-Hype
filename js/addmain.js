@@ -67,13 +67,13 @@ const sidebarList = document.querySelector('#sidebar ul');
 
 popularPosts.forEach((item) => {
 	sidebarList.innerHTML += `
-  					<li><h2
+  					<h2
 						class="text-sm font-semibold text-[#8F08C4] border-b pb-2 mb-4 uppercase">
 						Popular Posts
-					</h2></li>
+					</h2>
 
 					<!-- Featured Post -->
-				<li>	<div class="mb-4">
+					<div class="mb-4">
   <div class="relative overflow-hidden rounded-lg">
     <a href="${item.link1}">
       <img
@@ -89,7 +89,8 @@ popularPosts.forEach((item) => {
     </a>
   </div>
 </div>
-<div class="mt-2">
+
+						<div class="mt-2">
 							<a
 								class="text-base font-semibold leading-tight text-black hover:underline"
 								href="${item.link1}"
@@ -97,7 +98,7 @@ popularPosts.forEach((item) => {
 							>
 							
 						</div>
-					</div></li>
+					</div>
 
 					<!-- List of Other Posts -->
 					<ul class="space-y-3">
