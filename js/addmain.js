@@ -63,7 +63,7 @@ const headerHTML = `
 // Insert the navbar at the top of the <body>
 document.body.insertAdjacentHTML('afterbegin', headerHTML);
 
-const sidebarList = document.querySelector('#sidebar');
+const sidebarList = document.querySelector('#sidebar div');
 
 popularPosts.forEach((item) => {
 	sidebarList.innerHTML += `
