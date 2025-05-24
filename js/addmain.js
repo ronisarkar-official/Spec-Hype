@@ -63,11 +63,12 @@ const headerHTML = `
 // Insert the navbar at the top of the <body>
 document.body.insertAdjacentHTML('afterbegin', headerHTML);
 
-const sidebarList = document.querySelector('#sidebar div');
+const sidebarList = document.querySelector('#sidebar ul');
 
 popularPosts.forEach((item) => {
 	sidebarList.innerHTML += `
-  					<h2
+  <li>					
+  <h2
 						class="text-sm font-semibold text-[#8F08C4] border-b pb-2 mb-4 uppercase">
 						Popular Posts
 					</h2>
@@ -98,7 +99,7 @@ popularPosts.forEach((item) => {
 							>
 							
 						</div>
-					</div>
+					</div></li>
 
 					<!-- List of Other Posts -->
 					<ul class="space-y-3">
