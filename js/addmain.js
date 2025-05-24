@@ -67,41 +67,37 @@ const sidebarList = document.querySelector('#sidebar ul');
 
 popularPosts.forEach((item) => {
 	sidebarList.innerHTML += `
-  					<h2
-						class="text-sm font-semibold text-[#8F08C4] border-b pb-2 mb-4 uppercase">
-						Popular Posts
-					</h2>
+  					<!-- Section Title -->
+<h2 class="text-sm font-semibold text-[#8F08C4] border-b pb-2 mb-4 uppercase">
+  Popular Posts
+</h2>
 
-					<!-- Featured Post -->
-					<div class="mb-4">
+<!-- Featured Post (outside <ul>) -->
+<div class="mb-4">
   <div class="relative overflow-hidden rounded-lg">
     <a href="${item.link1}">
       <img
         src="${item.image1}"
         alt="Mecha Break"
         width="248"
-              height="135"
+        height="135"
         class="w-full h-auto rounded-md hover:scale-110 transition-transform duration-300" />
-      <span
-        class="absolute bottom-6 left-2 bg-[#0E579F] text-white text-xs font-bold px-2 py-1 rounded">
+      <span class="absolute bottom-6 left-2 bg-[#0E579F] text-white text-xs font-bold px-2 py-1 rounded">
         Games
       </span>
     </a>
   </div>
+  <div class="mt-2">
+    <a
+      class="text-base font-semibold leading-tight text-black hover:underline"
+      href="${item.link1}">
+      ${item.title1}
+    </a>
+  </div>
 </div>
 
-						<div class="mt-2">
-							<a
-								class="text-base font-semibold leading-tight text-black hover:underline"
-								href="${item.link1}"
-								>${item.title1}</a
-							>
-							
-						</div>
-					</div>
-
-					<!-- List of Other Posts -->
-					<ul class="space-y-3">
+<!-- List of Other Posts -->
+<ul class="space-y-3">
   <li class="flex items-start gap-3">
     <a href="${item.link2}">
       <img
@@ -126,7 +122,7 @@ popularPosts.forEach((item) => {
         src="${item.image3}"
         alt="Monster Hunter"
         width="88"
-              height="57"
+        height="57"
         class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
     </a>
     <div class="flex-1">
@@ -144,7 +140,7 @@ popularPosts.forEach((item) => {
         src="${item.image4}"
         alt="Monster Hunter"
         width="88"
-              height="57"
+        height="57"
         class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
     </a>
     <div class="flex-1">
@@ -156,6 +152,7 @@ popularPosts.forEach((item) => {
     </div>
   </li>
 </ul>
+
 
   `;
 });
