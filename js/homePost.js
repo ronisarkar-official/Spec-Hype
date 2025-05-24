@@ -1,6 +1,14 @@
 export const posts = [
 	
 	{
+		title: 'Wildcard Game System Requirements – Can I Run It?',
+		description:
+			'Discover the official Wildcard game system requirements—minimum & recommended specs for CPU, GPU, RAM, storage, and more. Ensure your PC can run this Unreal Engine 5 brawler smoothly.',
+		image:
+			'https://ik.imagekit.io/2zeqzsn1n/Wildcard.webp?f-webp,q-auto',
+		link: 'https://www.spechype.com/games/wildcard-game-system-requirements.html',
+	},
+	{
 		title: 'Clair Obscur: Expedition 33 System Requirements',
 		description:
 			'Discover the official system requirements for Clair Obscur: Expedition 33. Learn the minimum and recommended PC specs to run this turn-based RPG smoothly at 1080p.',
