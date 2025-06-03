@@ -2,3 +2,4 @@ User-agent: *
 Disallow:
 
 Sitemap: https://www.spechype.com/sitemap.xml
+Sitemap: https://www.spechype.com/rss.xml
