@@ -1,6 +1,14 @@
 export const posts = [
 	
 	{
+		title: 'Arc Raiders System Requirements – Can I Run It?',
+		description:
+			'Find the full PC requirements for Arc Raiders. See minimum, recommended & ultra specs with FPS benchmarks & performance tips. Updated 2025 guide.',
+		image:
+			'https://ik.imagekit.io/2zeqzsn1n/ARC%20Raiders.webp?f-webp,q-auto',
+		link: 'https://www.spechype.com/games/arc-raiders-system-requirements.html',
+	},
+	{
 		title: 'Wildcard Game System Requirements – Can I Run It?',
 		description:
 			'Discover the official Wildcard game system requirements—minimum & recommended specs for CPU, GPU, RAM, storage, and more. Ensure your PC can run this Unreal Engine 5 brawler smoothly.',
