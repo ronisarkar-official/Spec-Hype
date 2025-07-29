@@ -1,236 +1,161 @@
 import { popularPosts } from './homePost.js';
-// Load sidebar posts
+
+// --- Render Navbar ---
+const navLinks = [
+	{ name: 'Home', href: 'https://www.spechype.com' },
+	{
+		name: 'Terms and Conditions',
+		href: 'https://www.spechype.com/terms-and-conditions.html',
+	},
+	{
+		name: 'Privacy Policy',
+		href: 'https://www.spechype.com/privacy-policy.html',
+	},
+	{ name: 'About Us', href: 'https://www.spechype.com/about-us.html' },
+	{ name: 'Contact Us', href: 'https://www.spechype.com/contact-us.html' },
+];
+
+const renderLinks = (isMobile = false) =>
+	navLinks
+		.map(
+			(link) => `
+      <a href="${link.href}" class="${
+				isMobile
+					? 'block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50'
+					: 'text-gray-700 hover:text-blue-500'
+			} transition-all">${link.name}</a>`,
+		)
+		.join('');
 
 const headerHTML = `
-    <header id="navbar" class="bg-white shadow-md fixed top-0 left-0 w-full h-fit sm:h-fit z-50 p-4 transition-transform duration-300 ease-in-out">
-  <div class="container mx-auto flex justify-between items-center transition-all duration-300 ease-in-out">
-    
-    <div class=" ml-4 sm:ml-20 ">
-  <a href="https://www.spechype.com">
-    <img 
-      src="https://www.spechype.com/icons/logo.webp" 
-      alt="Logo" 
-      class="h-8 sm:h-10 w-auto ml-1 sm:ml-1"
-    >
-  </a>
-</div>
+<header id="navbar" class="bg-white shadow-md fixed top-0 left-0 w-full z-50 p-4 transition-transform duration-300">
+  <div class="container mx-auto flex justify-between items-center">
+    <div class="ml-4 sm:ml-20">
+      <a href="https://www.spechype.com">
+        <img src="https://www.spechype.com/icons/logo.webp" alt="Logo" class="h-8 sm:h-10 w-auto ml-1" />
+      </a>
+    </div>
 
-
-
-    <!-- Desktop Nav -->
-    <nav class="hidden md:flex items-center space-x-6 transition-opacity duration-300 ease-in-out">
-      <a href="https://www.spechype.com" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Home</a>
-      <a href="https://www.spechype.com/terms-and-conditions.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Terms and Conditions</a>
-      <a href="privacy-policy.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Privacy Policy</a>
-      <a href="about-us.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">About Us</a>
-      <a href="contact-us.html" class="text-gray-700 hover:text-blue-500 transition-all duration-300 ease-in-out">Contact Us</a>
-      
+    <nav class="hidden md:flex items-center space-x-6">
+      ${renderLinks(false)}
     </nav>
-	<input 
-  type="text" 
-  id="searchInput"
-  placeholder="Search..." 
-  class="w-40 sm:w-64 mb-2 sm:mb-0 mr-0 sm:mr-6 border rounded-md px-3 py-1 transition-all duration-300 ease-in-out focus:outline-none focus:ring focus:ring-blue-200 focus:ring-offset-2"
-/>
 
+    <input type="text" id="searchInput" placeholder="Search..." class="w-40 sm:w-64 mb-2 sm:mb-0 mr-0 sm:mr-6 border rounded-md px-3 py-1 focus:outline-none focus:ring focus:ring-blue-200 focus:ring-offset-2" />
 
-
-
-    <!-- Mobile Menu Button -->
-    <button id="menu-btn" aria-label="menu" class="md:hidden focus:outline-none transition-transform duration-300 ease-in-out hover:scale-110">
-      <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" 
-           viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M4 6h16M4 12h16M4 18h16"/>
+    <button id="menu-btn" aria-label="menu" class="md:hidden focus:outline-none hover:scale-110 transition-transform">
+      <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M4 6h16M4 12h16M4 18h16" />
       </svg>
     </button>
   </div>
 
-  <div id="mobile-menu" class="md:hidden overflow-hidden max-h-0 transition-all duration-500 ease-in-out flex flex-col mt-3 space-y-3 px-4">
-  <a href="https://www.spechype.com" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Home</a>
-  <a href="https://www.spechype.com/terms-and-conditions.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Terms and Conditions</a>
-  <a href="https://www.spechype.com/privacy-policy.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Privacy Policy</a>
-  <a href="https://www.spechype.com/about-us.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">About Us</a>
-  <a href="https://www.spechype.com/contact-us.html" class="block text-gray-800 px-4 py-2 rounded-md bg-white shadow-sm hover:bg-blue-50 transition-all">Contact Us</a>
-</div>
-  
-
-</div>
-
+  <div id="mobile-menu" class="md:hidden max-h-0 overflow-hidden transition-all duration-500 flex flex-col mt-3 space-y-3 px-4">
+    ${renderLinks(true)}
+  </div>
 </header>
+`;
 
-  `;
-
-// Insert the navbar at the top of the <body>
 document.body.insertAdjacentHTML('afterbegin', headerHTML);
 
+// --- Populate Sidebar ---
 const sidebarList = document.querySelector('#sidebar ul');
 
-popularPosts.forEach((item) => {
-	sidebarList.innerHTML += `
-  					<h2
-						class="text-sm font-semibold text-[#8F08C4] border-b pb-2 mb-4 uppercase">
-						Popular Posts
-					</h2>
-
-					<!-- Featured Post -->
-					<div class="mb-4">
-  <div class="relative overflow-hidden rounded-lg">
-    <a href="${item.link1}">
-      <img
-        src="${item.image1}"
-        alt="Mecha Break"
-        width="248"
-              height="135"
-        class="w-full h-auto rounded-md hover:scale-110 transition-transform duration-300" />
-      <span
-        class="absolute bottom-6 left-2 bg-[#0E579F] text-white text-xs font-bold px-2 py-1 rounded">
-        Games
-      </span>
-    </a>
+const renderSidebarPost = (item) => `
+  <h2 class="text-sm font-semibold text-[#8F08C4] border-b pb-2 mb-4 uppercase">Popular Posts</h2>
+  <div class="mb-4">
+    <div class="relative overflow-hidden rounded-lg">
+      <a href="${item.link1}">
+        <img src="${item.image1}" alt="${
+	item.title1
+}" width="248" height="135" class="w-full rounded-md hover:scale-110 transition-transform duration-300" />
+        <span class="absolute bottom-6 left-2 bg-[#0E579F] text-white text-xs font-bold px-2 py-1 rounded">Games</span>
+      </a>
+    </div>
+    <div class="mt-2">
+      <a href="${
+				item.link1
+			}" class="text-base font-semibold leading-tight text-black hover:underline">${
+	item.title1
+}</a>
+    </div>
   </div>
-</div>
+  <ul class="space-y-3">
+    ${[2, 3, 4]
+			.map(
+				(i) => `
+      <li class="flex items-start gap-3">
+        <a href="${item[`link${i}`]}">
+          <img src="${item[`image${i}`]}" alt="${
+					item[`title${i}`]
+				}" width="88" height="57" class="w-[88px] h-[57px] object-cover rounded-md" />
+        </a>
+        <div class="flex-1">
+          <a href="${
+						item[`link${i}`]
+					}" class="text-sm font-semibold text-gray-800 hover:underline">${
+					item[`title${i}`]
+				}</a>
+        </div>
+      </li>
+    `,
+			)
+			.join('')}
+  </ul>
+`;
 
-						<div class="mt-2">
-							<a
-								class="text-base font-semibold leading-tight text-black hover:underline"
-								href="${item.link1}"
-								>${item.title1}</a
-							>
-							
-						</div>
-					</div>
+sidebarList.innerHTML = popularPosts.map(renderSidebarPost).join('');
 
-					<!-- List of Other Posts -->
-					<ul class="space-y-3">
-  <li class="flex items-start gap-3">
-    <a href="${item.link2}">
-      <img
-        src="${item.image2}"
-        alt="Monster Hunter"
-        width="88"
-        height="57"
-        class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
-    </a>
-    <div class="flex-1">
-      <a
-        class="text-sm font-semibold text-gray-800 hover:underline"
-        href="${item.link2}">
-        ${item.title2}
-      </a>
-    </div>
-  </li>
-
-  <li class="flex items-start gap-3">
-    <a href="${item.link3}">
-      <img
-        src="${item.image3}"
-        alt="Monster Hunter"
-        width="88"
-              height="57"
-        class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
-    </a>
-    <div class="flex-1">
-      <a
-        class="text-sm font-semibold text-gray-800 hover:underline"
-        href="${item.link3}">
-        ${item.title3}
-      </a>
-    </div>
-  </li>
-
-  <li class="flex items-start gap-3">
-    <a href="${item.link4}">
-      <img
-        src="${item.image4}"
-        alt="Monster Hunter"
-        width="88"
-              height="57"
-        class="w-[88px] h-[57px] object-cover rounded-md flex-shrink-0" />
-    </a>
-    <div class="flex-1">
-      <a
-        class="text-sm font-semibold text-gray-800 hover:underline"
-        href="${item.link4}">
-        ${item.title4}
-      </a>
-    </div>
-  </li>
-</ul>
-
-  `;
-});
-
+// --- Back to Top Button ---
 const backToTopButton = document.getElementById('backToTop');
-
-// Show button after scrolling down 300px
 window.addEventListener('scroll', () => {
-	if (window.scrollY > 300) {
-		backToTopButton.classList.remove('opacity-0', 'pointer-events-none');
-	} else {
-		backToTopButton.classList.add('opacity-0', 'pointer-events-none');
-	}
+	backToTopButton.classList.toggle('opacity-0', window.scrollY <= 300);
+	backToTopButton.classList.toggle(
+		'pointer-events-none',
+		window.scrollY <= 300,
+	);
 });
 
-// Scroll to top when clicked
 backToTopButton.addEventListener('click', () => {
-	window.scrollTo({
-		top: 0,
-		behavior: 'smooth',
-	});
+	window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-let lastScrollY = window.scrollY;
+// --- Navbar Scroll Hide/Show ---
 const navbar = document.getElementById('navbar');
+let lastScrollY = window.scrollY;
 
 window.addEventListener('scroll', () => {
-	if (window.scrollY > lastScrollY) {
-		// Scroll Down
-		navbar.style.transform = 'translateY(-100%)';
-	} else {
-		// Scroll Up
-		navbar.style.transform = 'translateY(0)';
-	}
+	const isScrollingDown = window.scrollY > lastScrollY;
+	navbar.style.transform = isScrollingDown
+		? 'translateY(-100%)'
+		: 'translateY(0)';
 	lastScrollY = window.scrollY;
 });
 
+// --- Mobile Menu Toggle ---
 const menuBtn = document.getElementById('menu-btn');
 const mobileMenu = document.getElementById('mobile-menu');
 
-let isOpen = false;
-
 menuBtn.addEventListener('click', () => {
-	isOpen = !isOpen;
-
-	if (isOpen) {
-		mobileMenu.classList.remove('max-h-0');
-		mobileMenu.classList.add('max-h-screen');
-	} else {
-		mobileMenu.classList.remove('max-h-screen');
-		mobileMenu.classList.add('max-h-0');
-	}
+	const open = mobileMenu.classList.toggle('max-h-screen');
+	mobileMenu.classList.toggle('max-h-0', !open);
 });
 
+// --- Search Functionality ---
 const searchInput = document.getElementById('searchInput');
 const loadMoreBtn = document.getElementById('loadMoreBtn');
 
 searchInput.addEventListener('input', function () {
 	const query = this.value.toLowerCase();
 	const articles = document.querySelectorAll('#posts article');
-	let anyVisible = false;
+	let visibleCount = 0;
 
 	articles.forEach((article) => {
-		const title = article.querySelector('h2').textContent.toLowerCase();
-		const description = article.querySelector('p').textContent.toLowerCase();
-
-		const matches = title.includes(query) || description.includes(query);
-		article.style.display = matches ? '' : 'none';
-		if (matches) anyVisible = true;
+		const title = article.querySelector('h2')?.textContent.toLowerCase() || '';
+		const desc = article.querySelector('p')?.textContent.toLowerCase() || '';
+		const match = title.includes(query) || desc.includes(query);
+		article.style.display = match ? '' : 'none';
+		if (match) visibleCount++;
 	});
 
-	// Hide Load More during search
-	if (query.length > 0) {
-		loadMoreBtn.style.display = 'none';
-	} else {
-		loadMoreBtn.style.display = anyVisible ? '' : 'none';
-	}
+	loadMoreBtn.style.display = query ? 'none' : visibleCount ? '' : 'none';
 });
