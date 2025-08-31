@@ -1,43 +1,45 @@
 export const posts = [
-	
+	{
+		title:
+			'Top 10 PC mods & tools that make Valorant playable for low-vision players',
+		description:
+			'A practical, safety-first guide to improving Valorant visibility for low-vision players using built-in options, OS tools, and vetted companion apps.',
+		image: 'https://ik.imagekit.io/2zeqzsn1n/valorant.webp?f-webp,q-auto',
+		link: 'https://www.spechype.com/games/valorant-low-vision-mods.html',
+	},
 	{
 		title: 'Arc Raiders System Requirements – Can I Run It?',
 		description:
 			'Find the full PC requirements for Arc Raiders. See minimum, recommended & ultra specs with FPS benchmarks & performance tips. Updated 2025 guide.',
-		image:
-			'https://ik.imagekit.io/2zeqzsn1n/ARC%20Raiders.webp?f-webp,q-auto',
+		image: 'https://ik.imagekit.io/2zeqzsn1n/ARC%20Raiders.webp?f-webp,q-auto',
 		link: 'https://www.spechype.com/games/arc-raiders-system-requirements.html',
 	},
 	{
 		title: 'Wildcard Game System Requirements – Can I Run It?',
 		description:
 			'Discover the official Wildcard game system requirements—minimum & recommended specs for CPU, GPU, RAM, storage, and more. Ensure your PC can run this Unreal Engine 5 brawler smoothly.',
-		image:
-			'https://ik.imagekit.io/2zeqzsn1n/Wildcard.webp?f-webp,q-auto',
+		image: 'https://ik.imagekit.io/2zeqzsn1n/Wildcard.webp?f-webp,q-auto',
 		link: 'https://www.spechype.com/games/wildcard-game-system-requirements.html',
 	},
 	{
 		title: 'Clair Obscur: Expedition 33 System Requirements',
 		description:
 			'Discover the official system requirements for Clair Obscur: Expedition 33. Learn the minimum and recommended PC specs to run this turn-based RPG smoothly at 1080p.',
-		image:
-			'https://ik.imagekit.io/2zeqzsn1n/expedition-33.webp?f-webp,q-auto',
+		image: 'https://ik.imagekit.io/2zeqzsn1n/expedition-33.webp?f-webp,q-auto',
 		link: 'https://www.spechype.com/games/clair-obscur-expedition-33-requirements.html',
 	},
 	{
 		title: 'Ark 2 System Requirements - Can I Run It?',
 		description:
 			'Get detailed Ark 2 PC specs, optimization tips, benchmarking data, and upgrade paths for the ultimate dino-slaying experience.',
-		image:
-			'https://ik.imagekit.io/2zeqzsn1n/ark-2.webp?f-webp,q-auto',
+		image: 'https://ik.imagekit.io/2zeqzsn1n/ark-2.webp?f-webp,q-auto',
 		link: 'https://www.spechype.com/games/ark2-system-requirements.html',
 	},
 	{
 		title: 'Dune: Awakening System Requirements',
 		description:
 			'Check the official system requirements for Dune: Awakening. Find out if your PC can run the game with our detailed guide.',
-		image:
-			'https://ik.imagekit.io/2zeqzsn1n/dune.png?f-webp,q-auto',
+		image: 'https://ik.imagekit.io/2zeqzsn1n/dune.png?f-webp,q-auto',
 		link: 'https://www.spechype.com/games/dune-awakening-system-requirements.html',
 	},
 	{
@@ -77,8 +79,7 @@ export const posts = [
 		title: 'Elden Ring Nightreign System Requirements - Can i run it?',
 		description:
 			'Check the full PC system requirements for Elden Ring: Nightreign, including minimum and recommended specs, 4K gaming builds, storage tips, and co-op settings.',
-		image:
-			'https://ik.imagekit.io/2zeqzsn1n/elden-ring.webp?f-webp,q-auto',
+		image: 'https://ik.imagekit.io/2zeqzsn1n/elden-ring.webp?f-webp,q-auto',
 		link: 'https://www.spechype.com/games/elden-ring-nightreign-pc-requirements.html',
 	},
 	{
@@ -93,14 +94,14 @@ export const posts = [
 		title: 'Destiny 2 System Requirements',
 		description:
 			'Destiny 2 is an epic online-only multiplayer first-person shooter . . .',
-		image: 'https://ik.imagekit.io/t7v47ftyc/Untitled%20design.png?f-webp,q-auto',
+		image:
+			'https://ik.imagekit.io/t7v47ftyc/Untitled%20design.png?f-webp,q-auto',
 		link: 'https://www.spechype.com/games/destiny-2-requirements.html',
 	},
 	{
 		title: 'Once Human System Requirements - Can I Run It?',
 		description: 'In the realm of PC gaming, making sure your system is up to',
-		image:
-			'https://ik.imagekit.io/2zeqzsn1n/once-human.webp?f-webp,q-auto',
+		image: 'https://ik.imagekit.io/2zeqzsn1n/once-human.webp?f-webp,q-auto',
 		link: 'https://www.spechype.com/games/once-human-system-requirements.html',
 	},
 	{
