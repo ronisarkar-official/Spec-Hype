@@ -1,5 +1,13 @@
 export const posts = [
 	{
+		title: 'Battlefield™ 6 System Requirements — Can You Run It?',
+		description:
+			'Battlefield 6 system requirements: minimum, recommended and ultra specs, performance tips, SSD & GPU upgrade advice to help you run the game smoothly.',
+		image:
+			'https://ik.imagekit.io/2zeqzsn1n/battlefield%E2%84%A2-6-system-requirements.webp?f-webp,q-auto',
+		link: 'https://www.spechype.com/games/battlefield-6-system-requirements.html',
+	},
+	{
 		title:
 			'Top 10 PC mods & tools that make Valorant playable for low-vision players',
 		description:
