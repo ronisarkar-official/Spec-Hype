@@ -261,9 +261,7 @@ import { popularPosts } from './homePost.js';
 			menuBtn?.setAttribute('aria-expanded', 'false');
 		}
 	});
-	if ('serviceWorker' in navigator) {
-		navigator.serviceWorker.register('../sw.js');
-	}
+	
 
 	/* -------------------------
      Done — useful console hint (remove in production)
