@@ -1,0 +1,20 @@
+{
+	"name": "SpecHype",
+	"short_name": "SpecHype",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#9c42f3",
+	"icons": [
+		{
+			"src": "/icons/spechype-icon.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/icons/spechype-icon.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

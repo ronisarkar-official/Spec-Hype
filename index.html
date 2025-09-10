@@ -6,6 +6,7 @@
 		<meta http-equiv="Content-Language" content="en" />
 
 		<title>SpecHype - Game News & System Requirements</title>
+		<link rel="canonical" href="https://www.spechype.com/" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta
 			name="apple-mobile-web-app-status-bar-style"
@@ -17,6 +18,8 @@
 			type="application/rss+xml"
 			title="RSS Feed for SpecHype"
 			href="https://www.spechype.com/rss.xml" />
+			<link rel="manifest" href="/manifest.json">
+
 
 		<meta name="robots" content="index, follow" />
 		<meta
@@ -322,6 +325,38 @@
 				});
 			});
 		</script>
+<div id="installPrompt" class="fixed bottom-4 left-4 right-4 bg-white shadow-lg rounded-lg p-4 hidden z-50">
+  <p class="text-gray-800 font-semibold">Install SpecHype App?</p>
+  <div class="mt-2 flex gap-2">
+    <button id="installBtn" class="px-4 py-2 bg-blue-600 text-white rounded">Install</button>
+    <button id="dismissBtn" class="px-4 py-2 bg-gray-300 rounded">Dismiss</button>
+  </div>
+</div>
+
+<script>
+  let deferredPrompt;
+  const installPrompt = document.getElementById("installPrompt");
+  const installBtn = document.getElementById("installBtn");
+  const dismissBtn = document.getElementById("dismissBtn");
+
+  window.addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    installPrompt.classList.remove("hidden");
+  });
+
+  installBtn.addEventListener("click", () => {
+    installPrompt.classList.add("hidden");
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then((choice) => {
+      deferredPrompt = null;
+    });
+  });
+
+  dismissBtn.addEventListener("click", () => {
+    installPrompt.classList.add("hidden");
+  });
+</script>
 
 		<script type="module" src="js/addmain.js"></script>
 	</body>
