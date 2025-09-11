@@ -10,14 +10,14 @@ import { popularPosts } from './homePost.js';
 		{ name: 'Home', href: '/' },
 		{
 			name: 'Terms and Conditions',
-			href: 'https://www.spechype.com/terms-and-conditions.html',
+			href: 'https://www.spechype.com/p/terms-and-conditions.html',
 		},
 		{
 			name: 'Privacy Policy',
-			href: 'https://www.spechype.com/privacy-policy.html',
+			href: 'https://www.spechype.com/p/privacy-policy.html',
 		},
-		{ name: 'About Us', href: 'https://www.spechype.com/about-us.html' },
-		{ name: 'Contact Us', href: 'https://www.spechype.com/contact-us.html' },
+		{ name: 'About Us', href: 'https://www.spechype.com/p/about-us.html' },
+		{ name: 'Contact Us', href: 'https://www.spechype.com/p/contact-us.html' },
 	];
 
 	const createNavLinks = (isMobile = false) =>
