@@ -261,7 +261,6 @@ import { popularPosts } from './homePost.js';
 			menuBtn?.setAttribute('aria-expanded', 'false');
 		}
 	});
-	
 
 	/* -------------------------
      Done — useful console hint (remove in production)
