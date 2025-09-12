@@ -1,14 +1,20 @@
-# Custom 404 page
+# Turn off MultiViews that can break extensionless routing
+Options -MultiViews
+
+# Custom 404 — use a local path (not full URL)
 ErrorDocument 404 /p/404.html
 
-# Enable URL rewriting
-RewriteEngine On
+# Default index files
+DirectoryIndex index.html index.php
 
-# If requested file or directory doesn't exist
+# URL rewriting
+RewriteEngine On
+RewriteBase /
+
+# Only rewrite when the request does NOT map to an existing file or directory
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Rewrite URLs without extension to .html files
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
-
-
+# Rewrite extensionless URLs to .html (preserve query string)
+# Matches multi-segment paths too, ignores requests that already contain a dot
+RewriteRule ^([^.]+)$ $1.html [L,QSA]
